@@ -4,51 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starehe Ekiya Crew</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="./dist/styles.css" rel="stylesheet">
 </head>
-<body class="bg-[#fbf9ed]">
-    <div class="px-40 py-16"> <!-- Using default Tailwind spacing here -->
-        <!-- Navigation -->
-        <header class="bg-[#eac887] py-6">
-            <div class="flex justify-between items-center">
-                <div class="text-4xl font-bold text-[#151414]">
-                    Ekiya
-                </div>
-                <nav>
-                    <ul class="flex space-x-8 text-[#151414]">
-                        <li><a href="#" class="hover:text-[#b75f34]">Home</a></li>
-                        <li><a href="#" class="hover:text-[#b75f34]">About</a></li>
-                        <li><a href="#" class="hover:text-[#b75f34]">Contact Us</a></li>
-                        <li><a href="#" class="hover:text-[#b75f34]">Profile</a></li>
-                        <li><a href="#" class="hover:text-[#b75f34]">Featured Stories</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
 
-        <!-- Hero Section -->
-        <section class="bg-[#eac887] py-20">
-            <div class="text-center">
-                <!-- Title -->
-                <h1 class="text-6xl font-black">
-                    <span class="text-[#fbf9ed]">Starehe</span>
-                    <span class="text-[#597267]">Ekiya</span>
-                    <span class="text-[#b75f34]">Crew</span>
-                </h1>
-                <!-- Description -->
-                <p class="text-2xl mt-6 text-[#151414]">
-                    Welcome to the ultimate career scouting site for fun, adventure, and growth. Discover opportunities, meet talented individuals, and get scouted for exciting careers!
-                </p>
-                <!-- Call to Action Button -->
-                <a href="#" class="inline-block mt-8 px-6 py-3 text-lg font-semibold text-white bg-[#b75f34] rounded-full hover:bg-[#151414]">
-                    Get Started
-                </a>
+
+<div class="mx-0"> <!-- Full-width container with no margin -->
+    <!-- Space above the header -->
+    <div class="h-[30px]"></div>
+
+    <!-- Navigation -->
+    <header class="bg-[#eac887] py-6 px-10">
+        <div class="flex justify-between items-center px-40"> <!-- Added padding for logo and nav -->
+            <!-- Logo Icon -->
+            <div class="flex items-center text-[#151414] text-4xl">
+                <i class="fas fa-campground mr-2"></i> <!-- Camp icon -->
+                <span class="font-bold uppercase">Ekiya</span>
             </div>
-        </section>
-    </div>
+            <nav>
+                <ul class="flex space-x-8 text-[#151414] uppercase">
+                    <li><a href="#" class="hover:text-[#b75f34]">Home</a></li>
+                    <li><a href="#" class="hover:text-[#b75f34]">About</a></li>
+                    <li><a href="#" class="hover:text-[#b75f34]">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-[#b75f34]">Profile</a></li>
+                    <li><a href="#" class="hover:text-[#b75f34]">Featured Stories</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-[#eac887] py-2 pb-12" >
+        <div class="text-center px-40"> <!-- Padding left and right for text -->
+            <!-- Title -->
+            <h1 class="text-6xl font-black uppercase">
+                <span class="text-[#fbf9ed]">Starehe</span>
+                <span class="text-[#597267]">Ekiya</span>
+                <span class="text-[#b75f34]">Crew</span>
+            </h1>
+
+             <!-- Centered Image Container -->
+             <div class="my-8 bg-[#fbf9ed] p-4 rounded-lg shadow-md inline-block">
+                <img src="/assets/scout2.jpg" alt="Scouting" class="transform rotate-12 mx-auto rounded-lg" style="max-width: 100%; height: auto;">
+            </div>
+
+
+            <!-- Description -->
+            <p class="text-2xl mt-6 text-[#151414] uppercase">
+                Welcome to the ultimate career scouting site for fun, adventure, and growth. Discover opportunities, meet talented individuals, and get scouted for exciting careers!
+            </p>
+
+           
+
+            <!-- Call to Action Button -->
+            <a href="#" class="inline-block mt-8 px-6 py-3 text-lg font-semibold text-white bg-[#b75f34] rounded-full hover:bg-[#151414]">
+                Get Started
+            </a>
+        </div>
+    </section>
+</div>
+
+    
 
     <!-- Footer -->
-    <footer class="bg-[#151414] text-white py-6 text-center">
+    <footer class="text-white py-6 text-center">
         <div class="px-40 py-16">
             &copy; 2024 Ekiya - All Rights Reserved
         </div>
